@@ -1,0 +1,129 @@
+
+body {
+    background: #242424; 
+    background-image: url("background\ .png");
+    background-blend-mode: screen;
+    color: #838383;                               
+    font-family: 'ABeeZee';        
+    font-size: 13px;
+    text-align: justify;                
+}
+
+#container {
+    background: grey;                
+    height: 620px;
+    left: 50%;
+    margin-bottom: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 950px;
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px;
+    box-shadow: 0px 0.9px 0px 13px #13294B;
+}
+
+.upper {                                
+    background-color: #13294B;
+    border-radius: 20px;
+    float: right;
+    height: 180px;
+    margin: -600px 10px 40px 20px;
+    padding: 20px;
+    position: relative;
+    width: 470px;
+}
+
+.upper:after {                          
+    border: 22px solid transparent;
+	border-top-color: #13294B;
+	border-bottom: 0;
+	border-right: 0;
+    bottom: 0;
+    content: '';
+    height: 0;
+    left: 90%;
+    margin-bottom: -22px;
+    margin-left: -11px;
+	position: absolute;
+	width: 0;
+}
+
+#left {                                 
+    border-right: 1px solid #c8e2ee;
+    float: left;
+    color:#c8e2ee;
+    height: 100px;
+    line-height: 22px;
+    margin-right: 1px;
+    padding: 0.9px 7px 5px 5px;
+    text-transform: uppercase;
+}
+
+#right {                                
+    float: left;
+    height: 125px;
+    line-height: 22px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 0.9px 7px 5px 5px;
+    text-transform: lowercase;
+}
+
+img {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 600px;
+    width: 400px;
+    border-radius: 25px;
+    border: 2px solid grey;
+ 
+}
+
+h2 {                                    
+    color: #c8e2ee;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    font-weight: normal;
+    text-align: right;
+}
+
+h3 {
+    color: #c8e2ee;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+}
+
+div.container {
+    display:inline-block;
+    margin-top: 15;
+}
+
+p {
+    text-align:center;
+    font-family: 'ABeeZee';
+    color: #13294B;
+    height: 10px;
+    text-transform: lowercase;
+}
+
+h4{
+    text-align: center;
+    color: #c8e2ee;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-shadow: 2px 2px #13294B;
+}
+
+.icons{
+    width:200px;
+    height:200px;
+    border: 6px solid #13294B;
+}
